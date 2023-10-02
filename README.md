@@ -1,16 +1,14 @@
-# api_caching
+# API Records Caching
 
-A new Flutter project.
+## About this app:
 
-## Getting Started
+So, this application fetches data from the server and stores those data locally on our device. So, you can view the records even when you don't have an active internet connection. It is a kind of API records caching.
 
-This project is a starting point for a Flutter application.
+Firstly, the app will constantly be looking for internet connection changes.
 
-A few resources to get you started if this is your first Flutter project:
+If the app finds well-established internet, it will request the server for the latest updates. If the server provides positive responses, the app will remove all old stored records and store the latest fetched records.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Else if the app does not have well-established internet, it will show an appropriate message & the app will show the pre-fetched stored records.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on
-mobile development, and a full API reference.
+## Preview
+![alt text](https://i.postimg.cc/zXJPjbd9/imgonline-com-ua-twotoone-Zeebrs-H28z-Ky-DB.png "img")
